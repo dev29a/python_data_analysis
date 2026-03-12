@@ -25,3 +25,4 @@ print(unique_dates)
 
 high_above_25 = df["Age"] > 25
 print(df[high_above_25])
+
