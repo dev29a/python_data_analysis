@@ -3,6 +3,7 @@ import functools
 def jsonify_decorator(func):
     functools.wraps(func)
     def modifyOutput(*args, **kwargs):
+        print(args)
         return {"output": func(*args, **kwargs)}
     return modifyOutput
 
