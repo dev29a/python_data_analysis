@@ -6,6 +6,7 @@ def jsonify_decorator(func):
         print(args, type(args))
         return {"output": func(*args, **kwargs)}
     return modifyOutput
+    
 
 @jsonify_decorator
 def hello():
