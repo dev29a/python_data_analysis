@@ -3,7 +3,6 @@
 # playwright install
 # above will only work after activating the .venv 
 
-from turtle import title
 from playwright.sync_api import Browser, sync_playwright
 
 def main():
